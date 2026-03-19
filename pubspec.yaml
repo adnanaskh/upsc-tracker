@@ -1,0 +1,54 @@
+name: upsc_tracker
+description: UPSC CSE 2029 Study Tracker for Adnan Ahmad
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Local database - fully offline
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.4
+  
+  # Shared preferences for settings
+  shared_preferences: ^2.2.2
+  
+  # Charts for statistics
+  fl_chart: ^0.68.0
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  
+  # Date/time utilities
+  intl: ^0.19.0
+  
+  # Animations
+  lottie: ^3.1.0
+  
+  # Percentage indicator
+  percent_indicator: ^4.2.3
+  
+  # Table calendar
+  table_calendar: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
